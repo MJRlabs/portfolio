@@ -106,7 +106,7 @@
     margin-bottom: 1.5rem;
   }
   
-  .code-card {
+  .project-card {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -118,7 +118,7 @@
     transition: all 0.5s ease-in-out;
   }
   
-  .code-card .card-header {
+  .project-card .card-header {
     position: relative;
     margin: -4rem 0 1.5rem 0;
     padding: 0.5rem 1rem;
@@ -130,15 +130,15 @@
   }
   
   
-  .code-card:hover,
-  .code-card:hover .card-header {
+  .project-card:hover,
+  .project-card:hover .card-header {
     box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
   }
-  .code-card .code-block {
+  .project-card .code-block {
     flex-grow: 1;
   }
   
-  .code-card pre {
+  .project-card pre {
     white-space: pre-wrap;
     overflow: auto;
     tab-size: 4;
@@ -152,7 +152,7 @@
     display: flex;
     align-items: center;
   }
-  .code-card pre:active {
+  .project-card pre:active {
     user-select: all;
   }
 
